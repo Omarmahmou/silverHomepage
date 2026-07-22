@@ -1,0 +1,29 @@
+@import url(Navbar.css);
+@import url(heroSection.css);
+@import url(productsSection.css);
+@import url(gallerySection.css);
+@import url(shopSection.css);
+@import url(aboutSection.css);
+@import url(inspireSection.css);
+@import url(viewSection.css);
+@import url(articlesSection.css);
+@import url(contactSection.css);
+@import url(footer.css);
+
+:root {
+  --primary-color: #f0d29f;
+  --secondary-color: #121211;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

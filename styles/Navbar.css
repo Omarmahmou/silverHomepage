@@ -1,0 +1,151 @@
+.main-header {
+  background-color: var(--secondary-color);
+  border-bottom: 1px solid #222;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.header-container {
+  background-color: var(--secondary-color);
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-left: 50px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: #999;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  transition: color 0.3s;
+  position: relative;
+  padding: 8px 0;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #fff;
+  font-weight: 400;
+}
+
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -23px;
+  left: 0;
+  width: 100%;
+  height: 0.5px;
+  background-color: #fffffe;
+}
+
+.has-badge {
+  position: relative;
+}
+
+.badge {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 8px;
+  font-weight: 500;
+  padding: 1px;
+  position: absolute;
+  top: -2px;
+  right: -27px;
+  letter-spacing: 0.5px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #fafafa;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.lang-text {
+  letter-spacing: 1.5px;
+}
+
+.lang-arrow {
+  display: flex;
+  align-items: center;
+}
+
+.cta-btn {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  padding: 9px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #cda577;
+  opacity: 0.9;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 1px;
+  background-color: #fff;
+  transition: 0.3s;
+}

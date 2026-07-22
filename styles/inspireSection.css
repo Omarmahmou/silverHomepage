@@ -1,0 +1,63 @@
+.inspire {
+  margin-top: 100px;
+}
+
+.inspire-text {
+  margin-bottom: 50px;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.inspire-text span {
+  font-weight: bold;
+}
+
+.inspire-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.inspire-benefits {
+  background-color: var(--secondary-color);
+  padding: 35px 25px;
+}
+
+.inspire-benefits ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.inspire-benefits ul li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fffffe;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inspire-benefits ul li svg {
+  color: var(--primary-color);
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.inspire-benefits h3 {
+  color: var(--primary-color);
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 0.5px;
+}
+
+.inspire-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

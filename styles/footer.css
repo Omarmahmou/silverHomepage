@@ -1,0 +1,175 @@
+.footer {
+  background-color: var(--secondary-color);
+  color: #fafafa;
+  padding: 100px 0 0 0;
+  margin-top: 100px;
+}
+
+.footer .container {
+  max-width: 1200px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 70px;
+  align-items: flex-start;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.footer-logo svg {
+  width: 100px;
+  height: 30px;
+}
+
+.footer-col h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fafafa;
+  margin: 0 0 24px 0;
+  letter-spacing: 0.5px;
+}
+
+.footer-col p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-list li,
+.footer-list a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fafafa;
+  text-decoration: none;
+  line-height: 1.5;
+  transition: opacity 0.2s ease;
+}
+
+.footer-list a:hover {
+  opacity: 0.7;
+}
+
+.subscribe-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #fafafa;
+  border-radius: 4px;
+  background: transparent;
+  padding: 12px 16px;
+  max-width: 240px;
+  width: 210px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0;
+}
+
+.subscribe-form button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-text {
+  font-size: 12px;
+  color: #a0a0a0;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.app-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.qr-code {
+  background: #ffffff;
+  padding: 4px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-image {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+}
+
+.store-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.store-buttons img {
+  width: 110px;
+  height: auto;
+  display: block;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-icons a {
+  color: #fafafa;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #6a6a68;
+  font-size: 16px;
+  margin: 0;
+}
