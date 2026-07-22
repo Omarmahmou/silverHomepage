@@ -18,9 +18,15 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
 window.onload = () => {
   const swiper = new Swiper(".mySwiper", {
     direction: "vertical",
-    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 0,
+    autoHeight: false,
 
+    loop: true,
     speed: 1000,
+
+    observer: true,
+    observeParents: true,
 
     autoplay: {
       delay: 3000,
